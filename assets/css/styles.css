@@ -1,0 +1,77 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  border: 1px solid red;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.secao {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.secao.inicio {
+  background-color: aqua;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/f/f3/Earth_flag_PD.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.secao.sobre {
+  background-color: blue;
+  background-image: url("https://th.bing.com/th/id/R.6ed7f24eb793e97a94e9fc4c034b66c0?rik=sLWf7OZPgSpb1w&pid=ImgRaw&r=0");
+  background-size: cover;
+  background-position: center;
+}
+.secao.atividades {
+  background-color: aquamarine;
+  background-image: url("https://i.ytimg.com/vi/CJKBDk5Kci4/maxresdefault.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.secao.contato {
+  background-color: purple;
+}
+h1,
+h2 {
+  font-family: "Jersey 25", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.no-topo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+.menu li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.menu li a {
+  text-decoration: none;
+  color: rgb(0, 219, 135);
+}
+
+
+
+/*# sourceMappingURL=styles.css.map */
